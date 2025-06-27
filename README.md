@@ -44,13 +44,6 @@ Asegúrate de tener PostgreSQL instalado y crea una base de datos, por ejemplo:
 CREATE DATABASE literalura;
 ```
 
-Actualiza las credenciales en `src/main/resources/application.properties`:
-```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/literalura
-spring.datasource.username=tu_usuario
-spring.datasource.password=tu_contraseña
-```
-
 ### 3. Ejecutar la aplicación
 Abre el proyecto en tu IDE Java favorito (IntelliJ, Eclipse, etc.) y ejecuta la clase principal:
 
@@ -82,12 +75,6 @@ literalura/
 
 - [Gutendex API](https://gutendex.com/)
   - Permite obtener datos públicos de libros del Proyecto Gutenberg.
-
----
-
-## 👨‍💻 Autor
-
-- 💡 Proyecto desarrollado por [JebGy](https://github.com/JebGy) como parte del programa **Oracle Next Education (ONE)** de **Alura Latam**.
 
 ---
 
